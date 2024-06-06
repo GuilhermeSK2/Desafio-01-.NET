@@ -4,7 +4,7 @@ class Exemplo07
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Vamos descobrir se você é uma Criança, Adulto ou Idoso");
+        Console.WriteLine("Vamos descobrir se você é Criança, Adulto ou Idoso");
         Console.WriteLine("Quantos anos você tem?");
         int idade = Convert.ToInt32(Console.ReadLine());
         if (idade <= 0)
