@@ -8,7 +8,7 @@ class Exemplo06
         int ano = Convert.ToInt32(Console.ReadLine());
         if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0))
         {
-            Console.WriteLine("O ano " + ano +" é bissexto!");
+            Console.WriteLine("O ano " + ano + " é bissexto!");
         }
         else
         {
