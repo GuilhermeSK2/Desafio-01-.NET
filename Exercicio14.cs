@@ -14,7 +14,7 @@ class Exemplo14
         }
         else
         {
-            Console.WriteLine("O número " + numero + " ao quadrado é " + (numero + numero));
+            Console.WriteLine("O número " + numero + " ao quadrado é " + (numero * numero));
         }
     }
 }
